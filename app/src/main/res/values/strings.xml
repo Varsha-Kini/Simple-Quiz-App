@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Simple quiz app</string>
+    <string name="restart">Restart</string>
+    <string name="correct_answers">Correct answers</string>
+    <string name="wrong_answers">Wrong Answers</string>
+    <string name="total">Total</string>
+    <string name="instructions">INSTRUCTIONS:
+    \n1.Click on the \'START\'button to begin the test.
+    \n2.Each question consists of 4 answer choices.Select the correct answer.
+    \n3.Your score is displayed on the top left corner of the screen.
+    \n4.To finish the test before attempting all the question click on the\'X\' button on the to right corner of the screen.
+    \n5.After finishing all the questions you\'ll be directed to the result page
+    \n6.The result page displays number of correct answers,number of wrong answers and your total test
+    \n7.Click on the \'RETEST\'button on the result page to retake the test or return to the starting page
+    \nALL THE BEST</string>
+</resources>

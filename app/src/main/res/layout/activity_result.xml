@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="32dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/restart"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Total"
+        android:background="@color/colorPrimary"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <TextView
+        android:id="@+id/correct"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:layout_marginBottom="64dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/correct_answers" />
+
+    <TextView
+        android:id="@+id/wrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/correct"
+        android:text="@string/wrong_answers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:gravity="center"
+        android:background="@color/wronganswer"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+    <TextView
+        android:id="@+id/Total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wrong"
+        android:text="@string/total"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:gravity="center"
+        android:background="@color/total"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="41dp"
+        app:srcCompat="@drawable/result" />
+</RelativeLayout>

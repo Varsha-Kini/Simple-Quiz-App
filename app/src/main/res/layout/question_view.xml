@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="32dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <Button
+        android:id="@+id/AnswerD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="32dp"/>
+
+    <Button
+        android:id="@+id/AnswerC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/AnswerD"
+        android:paddingBottom="32dp"/>
+
+    <Button
+        android:id="@+id/AnswerB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/AnswerC"
+        android:paddingBottom="32dp" />
+
+    <Button
+        android:id="@+id/AnswerA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/AnswerB"
+        android:paddingBottom="32dp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="64dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/AnswerA"
+        android:text="TextView"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/score"
+        />
+
+    <Button
+        android:id="@+id/quit"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/question"
+        android:layout_marginStart="300dp"
+        android:layout_marginBottom="63dp"
+        android:background="@color/colorPrimary"
+        android:text="Quit" />
+
+
+</RelativeLayout>
